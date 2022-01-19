@@ -13,6 +13,16 @@ const routes = [
         name: 'test',
         component: () => import( '@/components/Choose.vue')
     }, 
+    {
+        path: '/store',
+        name: 'store',
+        component: () => import( '@/components/Store.vue')
+    }, 
+    {
+        path: '/rent',
+        name: 'store',
+        component: () => import( '@/components/Rent.vue')
+    }, 
 ]
 
 //create router
